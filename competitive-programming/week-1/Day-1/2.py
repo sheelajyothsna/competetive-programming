@@ -1,6 +1,5 @@
 import unittest
 
-
 def get_products_of_all_ints_except_at_index(l):
     
     # Make a list with the products
