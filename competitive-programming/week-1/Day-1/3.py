@@ -5,7 +5,7 @@ high = sys.maxsize
 low = -sys.maxsize-1
 def highest_product_of_3(arr):
     if len(arr) < 3:
-         raise ValueError("...........")
+         raise ValueError("cannot be defined")
 
     max1 = low
     max2 = low
