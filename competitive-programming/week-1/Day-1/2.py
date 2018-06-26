@@ -4,7 +4,7 @@ def get_products_of_all_ints_except_at_index(l):
     
     # Make a list with the products
     if len(l) < 2:
-        raise ValueError("hii")
+        raise ValueError("cannot be defined")
     productlist = [1] * len(l)
     left = 1
     for i in range(len(productlist)):
