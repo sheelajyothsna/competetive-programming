@@ -12,7 +12,6 @@ class Trie(object):
 
     def add_word(self, key):
         if len(key) == 0:
-            node = Trie()
             if key in self.path:
                 return False
             else:
