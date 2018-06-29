@@ -13,7 +13,7 @@ def can_two_movies_fill_flight(movie_lengths, flight_length):
             return True
         movie_seen.add(movie1_length)
 
-    # We never found a match, so return False
+    
     return False
 
 
