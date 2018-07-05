@@ -14,7 +14,7 @@ def has_palindrome_permutation(the_string):
             dict[x] = 1
 
 
-    for x in l:
+    for x in list:
         if dict[x] % 2 == 0:
             del dict[x]
 
